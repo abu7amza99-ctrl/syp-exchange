@@ -1,0 +1,83 @@
+body{
+  font-family: Cairo, sans-serif;
+  margin:0;
+  color:#fff;
+  background: url('../assets/images/syria_bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.app{
+  max-width:420px;
+  margin:auto;
+  padding:20px;
+  background: rgba(0,0,0,0.5); /* شفافية لتوضيح النصوص فوق الخلفية */
+  border-radius:16px;
+}
+
+h1{
+  text-align:center;
+  margin-bottom:25px;
+  color:#38bdf8;
+}
+
+.card{
+  margin-bottom:15px;
+}
+
+label{
+  display:block;
+  margin-bottom:6px;
+  font-size:14px;
+  opacity:.85;
+}
+
+input,select{
+  width:100%;
+  padding:14px;
+  border-radius:12px;
+  border:none;
+  font-size:16px;
+  background:#1e293b;
+  color:#fff;
+}
+
+button{
+  width:100%;
+  padding:15px;
+  margin-top:10px;
+  border:none;
+  border-radius:14px;
+  font-size:18px;
+  background:#38bdf8;
+  color:#000;
+  cursor:pointer;
+}
+
+.result-box{
+  margin-top:20px;
+  padding:18px;
+  background:#020617;
+  border-radius:16px;
+  text-align:center;
+}
+
+.result-box div{
+  font-size:22px;
+  color:#22c55e;
+  word-break:break-word;
+}
+
+.footer{
+  text-align:center;
+  margin-top:15px;
+  font-size:12px;
+  opacity:.6;
+}
+
+/* تنسيق العلم */
+.flag-icon {
+  width:25px;
+  height:auto;
+  vertical-align:middle;
+  margin-left:6px;
+}
