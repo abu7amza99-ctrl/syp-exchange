@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>سعر صرف الليرة السورية - دمشق</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="app">
+
+<h1>💱 سعر صرف الليرة السورية - دمشق</h1>
+
+<!-- المبلغ -->
+<div class="card">
+  <label>المبلغ</label>
+  <input type="number" id="amount" placeholder="أدخل المبلغ">
+</div>
+
+<!-- من العملة -->
+<div class="card">
+  <label>من العملة</label>
+  <select id="from">
+    <option value="USD">🇺🇸 دولار أمريكي</option>
+    <option value="EUR">🇪🇺 يورو</option>
+    <option value="TRY">🇹🇷 ليرة تركية</option>
+    <option value="SYP">🇸🇾 ليرة سورية قديمة</option>
+    <option value="SYP_NEW">
+      <img src="assets/flags/syp_new.png" class="flag-icon"> ليرة سورية جديدة
+    </option>
+  </select>
+</div>
+
+<!-- إلى العملة -->
+<div class="card">
+  <label>إلى العملة</label>
+  <select id="to">
+    <option value="SYP">🇸🇾 ليرة سورية قديمة</option>
+    <option value="SYP_NEW">
+      <img src="assets/flags/syp_new.png" class="flag-icon"> ليرة سورية جديدة
+    </option>
+    <option value="USD">🇺🇸 دولار أمريكي</option>
+    <option value="EUR">🇪🇺 يورو</option>
+    <option value="TRY">🇹🇷 ليرة تركية</option>
+  </select>
+</div>
+
+<button onclick="convert()">تحويل</button>
+
+<div class="result-box">
+  <div id="result">—</div>
+</div>
+
+<div class="footer">
+  يتم تحديث الأسعار تلقائيًا من الإنترنت (دمشق)
+</div>
+
+<script src="js/app.js"></script>
+</div>
+</body>
+</html>
