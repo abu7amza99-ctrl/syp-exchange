@@ -1,7 +1,7 @@
 body{
   font-family: Cairo, sans-serif;
   margin:0;
-  color:#fff;
+  color:#FFD700; /* لون الخط الذهبي */
   background: url('../assets/images/syria_bg.jpg') no-repeat center center fixed;
   background-size: cover;
 }
@@ -10,14 +10,14 @@ body{
   max-width:420px;
   margin:auto;
   padding:20px;
-  background: rgba(0,0,0,0.5); /* شفافية لتوضيح النصوص فوق الخلفية */
+  background: rgba(255,255,255,0.2); /* مربع التطبيق بلون أبيض شفاف 20% */
   border-radius:16px;
 }
 
 h1{
   text-align:center;
   margin-bottom:25px;
-  color:#38bdf8;
+  color:#FFD700; /* الخط الذهبي */
 }
 
 .card{
@@ -28,7 +28,8 @@ label{
   display:block;
   margin-bottom:6px;
   font-size:14px;
-  opacity:.85;
+  opacity:1;
+  color:#FFD700; /* الخط الذهبي */
 }
 
 input,select{
@@ -37,8 +38,9 @@ input,select{
   border-radius:12px;
   border:none;
   font-size:16px;
-  background:#1e293b;
-  color:#fff;
+  background: rgba(128,128,128,0.2); /* رمادي شفاف 20% */
+  color:#FFD700; /* الخط الذهبي */
+  font-weight:bold;
 }
 
 button{
@@ -48,30 +50,33 @@ button{
   border:none;
   border-radius:14px;
   font-size:18px;
-  background:#38bdf8;
+  background: #38bdf8; /* يمكن ترك لون الزر كما هو أو تغييره لاحقًا */
   color:#000;
   cursor:pointer;
+  font-weight:bold;
 }
 
 .result-box{
   margin-top:20px;
   padding:18px;
-  background:#020617;
+  background: rgba(255,215,0,0.2); /* ذهبي شفاف 20% */
   border-radius:16px;
   text-align:center;
 }
 
 .result-box div{
   font-size:22px;
-  color:#22c55e;
+  color:#FFD700; /* النص الذهبي */
   word-break:break-word;
+  font-weight:bold;
 }
 
 .footer{
   text-align:center;
   margin-top:15px;
   font-size:12px;
-  opacity:.6;
+  opacity:.8;
+  color:#FFD700;
 }
 
 /* تنسيق العلم */
